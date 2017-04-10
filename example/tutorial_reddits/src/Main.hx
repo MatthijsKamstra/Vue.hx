@@ -3,6 +3,8 @@ package ;
 import vue.Vue;
 import vue.VueResource;
 
+import js.Lib;
+
 class Main
 {
 
@@ -24,12 +26,10 @@ class Main
 			},
 
 			created: function(){
-				untyped This.$http.get("https://www.reddit.com/r/"+ This.name +"/top.json?limit=5")
-				.then(function(resp){
-					if(resp.data == 'string') {
-					   resp.data = JSON.parse(resp.data);
-					}
-					This.posts = resp.data.data.children;
+				var scope = Lib.nativeThis;
+				VueResource.get("https://www.reddit.com/r/"+ Lib.nativeThis.name +"/top.json?limit=5")
+				.then(function(resp:Response){
+					scope.posts = resp.body.data.children;
 				});
 			}
 		});
@@ -41,7 +41,7 @@ class Main
 			props: ['item'],
 			methods: {
 				getImageBackgroundCSS: function(img) {
-					if(img != null && img!='self' && img!='nsfw') {
+					if(img != null && img != 'self' && img != 'nsfw') {
 						return 'background-image: url(' + img + ')';
 					}
 					else {
@@ -64,11 +64,9 @@ class Main
 		// Filter for cutting off strings that are too long.
 		Vue.filter('truncate', function(value) {
 			var length = 60;
-
 			if(value.length <= length) {
 				return value;
-			}
-			else {
+			} else {
 				return value.substring(0, length) + '...';
 			}
 		});
@@ -85,6 +83,6 @@ class Main
 
 
 	static public function main(){
-		var main = new Main();
+		new Main();
 	}
 }
