@@ -27,6 +27,10 @@ The next examples show the vue-router:
 - [:page_facing_up: tutorial_router01](tutorial_router01) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router01/bin/index.html) :link:<https://router.vuejs.org/en/essentials/getting-started.html>
 - [:page_facing_up: tutorial_router02](tutorial_router02) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router01/bin/index.html) :link:<https://github.com/vuejs/vue-router/blob/dev/examples/named-routes/app.js>
 
+Vue-resource assets loader example
+
+- [:page_facing_up: tutorial_loading](tutorial_loading) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_loading/bin/index.html)
+
 More complex templating with vue-resource assets loader:
 
 - [:page_facing_up: tutorial_reddits](tutorial_reddits) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_reddits/bin/index.html) :link:<http://tutorialzine.com/2016/08/building-your-first-app-with-vue-js/>
@@ -57,7 +61,7 @@ In Vue.js, the `this` keyword has a different context and properties in callback
 In vue `this` points to the vm instance
 
 ```js
-var app5 = new Vue({
+var vm = new Vue({
 	el: '#app-5',
 	data: {
 		message: 'Hello Vue.js!'
@@ -81,7 +85,7 @@ There are currently 3 ways to do this:
 
 
 ```haxe
-var app5 = new Vue({
+var vm = new Vue({
 	el: '#app-5',
 	data: {
 		message: 'Hello Vue.js!'
