@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"example.js",
+"sourceRoot":"file:///",
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/tutorial_loading/src/Main.hx"],
+"names":[],
+"mappings":";;WASC,WACA;AAAA,CACC,YAAM;CAEN,SAAS,QAAQ,OACZ,eACC,WACJ;AAAA,SAAO,YACI,iBACC,aACL;cAGA,WAAW;AAAA,EAClB,YAAY;EACZ,gBAAgB;EAEhB,aAAiB,gCAChB,mBAA4B;AAAA,GAC3B,WAAW;GACX,gBAAgB;IACd,gBACF;AAAA,eAAM;;;;YAOG,WAEb;AAAA,YAAW;;;;;"
+}

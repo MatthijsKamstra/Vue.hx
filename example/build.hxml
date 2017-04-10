@@ -71,3 +71,10 @@
 
 
 -cmd echo "done: ${PWD##*/}"
+
+
+-cmd cd ../tutorial_loading
+-cmd haxe build.hxml
+
+
+-cmd echo "done: ${PWD##*/}"
