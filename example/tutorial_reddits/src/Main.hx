@@ -27,7 +27,7 @@ class Main
 
 			created: function(){
 				var scope = Lib.nativeThis;
-				VueResource.get("https://www.reddit.com/r/"+ Lib.nativeThis.name +"/top.json?limit=5")
+				VueResource.get("https://www.reddit.com/r/"+ scope.name +"/top.json?limit=5")
 				.then(function(resp:Response){
 					scope.posts = resp.body.data.children;
 				});
