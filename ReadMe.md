@@ -10,18 +10,20 @@ Haxe externs for [Vue.JS](https://vuejs.org/ "Vue.js Homepage") 2.0. intended to
 C:\> haxelib install vue
 ```
 
-## Haxelib local use
+## Haxelib
 
-Use this repo locally
+How to get this working?
+
+You might want to update and/or correct the externs: install this repo locally
 
 ```cmd
 haxelib dev vue path/to/folder/src
 ```
 
-or use git directly
+For the cutting-edge/dev-version:
 
 ```cmd
-haxelib git vue https://github.com/kidveno/Vue.hx.git
+haxelib git vue https://github.com/MatthijsKamstra/Vue.hx.git
 ```
 
 don't forget to add it to your build file
@@ -35,6 +37,8 @@ don't forget to add it to your build file
 
 + Externs for the core Vue 2.0 API contained in the ```Vue``` class
 + Typedefs for `VueConfig` , `VueComponentOptions`, `VueOptions`, and `RenderFunction`
++ Externs for [`VueRouter`](src/vue/VueRouter.hx) and [`VueResource`](src/vue/VueResource.hx)
++ [Examples](example) to get you started
 + An optional Component class (`VueComponent`) which, when extended, allows the use of an *@template* metatag to add code for templates right in your haxe class.
 ```haxe
     @template("<p>My Template</p>") //The component class will use the first @template for the template
@@ -46,7 +50,7 @@ don't forget to add it to your build file
     }
 ```
 
-Other that that its haxe/vue business as usual
+Other that that its Haxe/vue business as usual
 
 
 ## Examples
