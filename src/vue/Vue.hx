@@ -102,10 +102,10 @@ typedef VueOptions = {
 	@:optional var replace:Bool; // only respected if the template option is also present.
 
 	// Options-Lifecycle / Hooks (https://vuejs.org/v2/api/#Options-Lifecycle-Hooks)
-	@:optional var beforeCreate:Void->Void;
+	@:optional var beforeCreate:Void->Void; // renamed init
 	@:optional var created:Void->Void;
 	@:optional var beforeMount:Void->Void;
-	@:optional var mounted:Void->Void;
+	@:optional var mounted:Void->Void; // replaced ready
 	@:optional var beforeUpdate:Void->Void;
 	@:optional var updated:Void->Void;
 	@:optional var activated:Void->Void;
