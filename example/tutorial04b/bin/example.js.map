@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"example.js",
+"sourceRoot":"file:///",
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/tutorial04b/src/Main.hx","/Users/matthijs/Documents/GIT/Vue_mck.hx/src/vue/VueComponent.hx","/Users/matthijs/Documents/GIT/Vue_mck.hx/example/tutorial04b/src/TodoItem.hx","/usr/local/lib/haxe/std/haxe/rtti/Meta.hx","/usr/local/lib/haxe/std/js/Boot.hx","/usr/local/lib/haxe/std/js/_std/Std.hx"],
+"names":[],
+"mappings":";;;;;;;;WAQC,WACA;AAAA,CACC,YAAM;CAYN,eAA8B;CAE9B,WAAW,QAAQ,OACb,iBACC,gBACQ,CACZ,SAAS,cACT,SAAS,UACT,SAAS;;YAQC,WACb;AAAA,YAAW;;;;;uBC7BL,sBAAsD;AAAA,CAC5D,EAAG,qBAAoB,QAAQ,oBAAoB,IAClD;AAAA,qBAAmB,uBAAa,iBAAc,gBAAgB;;CAE/D,eAAe;CACf,cAAc,IAAI;;;OAGZ,WACN;AAAA,SAAO;;;;eCdM,WACb;AAAA,4BAAO,YAAY,UAAS,CAAE;;;;;;;yBCiCjB,YAA0D;AAAA,CACvE,WAAW,uBAAQ;CACZ,GAAC,QAAQ,QAAQ,YAAY,MAAQ;AAAA;QAAK;AAAA;;;yBAkBnC,YAwBd;AAAA,QAAe;;;mBCGT,YACN;AAAA,GAAI,EAAO,aAAG,UAAV,AAAO,cAAP,MACH;AAAA,SAAO;QACH;AAAA,EACJ,SAAiB,AAAuC;EACxD,EAAI,OAAM,MACT;AAAA,UAAO;;EACR,WAAW,0BAAkB;EAC7B,EAAI,SAAQ,MACX;AAAA,UAAO,6BAAqB;;EAC7B,OAAO;;;4BA0IF,YAA6C;AAAA,CACnD,WAAmB,qBAAa,SAAS,EAAG;CAG5C,EAAI,SAAQ,YAAY,QAAQ,cAAc,QAAQ,UAAU,QAAQ,QACvE;AAAA,SAAO;;CACR,OAAO;;+BASD,eACN;AAAA,QAAe,QAAc;;;;AC3LE,6BAA6B,AAA8D;4BJzD5H,qBADC,CAAS;oBCFV,qBADC,CAAS;kBEsOoB;;;;"
+}
