@@ -9,7 +9,7 @@ The walk you through the basics from Vue.js, that why there is no styling (focus
 - [:page_facing_up: tutorial03](tutorial03) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial03/bin/index.html) :link:<https://vuejs.org/v2/guide/#Handling-User-Input>
 - [:page_facing_up: tutorial04](tutorial04) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial04/bin/index.html) :link:<https://vuejs.org/v2/guide/#Composing-with-Components>
 
-- [:page_facing_up: tutorial04a](tutorial04a) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial04a/bin/index.html) the same as tutorial04 but with `VueComponent.hx`
+- [:page_facing_up: tutorial04a](tutorial04b) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial04b/bin/index.html) the same as tutorial04 but with `VueComponent.hx`
 
 
 
