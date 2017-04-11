@@ -45,7 +45,7 @@ don't forget to add it to your build file
     class MyComponent extends vue.VueComponent{
         public function new()
         {
-            super('my-component', {})
+            super('my-component', {});
         }
     }
 ```
