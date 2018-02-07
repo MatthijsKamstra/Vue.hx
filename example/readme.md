@@ -28,7 +28,15 @@ The next examples show the vue-router:
 
 
 - [:page_facing_up: tutorial_router01](tutorial_router01) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router01/bin/index.html) :link:<https://router.vuejs.org/en/essentials/getting-started.html>
-- [:page_facing_up: tutorial_router02](tutorial_router02) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router01/bin/index.html) :link:<https://github.com/vuejs/vue-router/blob/dev/examples/named-routes/app.js>
+- [:page_facing_up: tutorial_router02](tutorial_router02) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router02/bin/index.html) :link:<https://github.com/vuejs/vue-router/blob/dev/examples/named-routes/app.js>
+
+- <https://router.vuejs.org/en/essentials/getting-started.html> router01
+- <https://router.vuejs.org/en/essentials/dynamic-matching.html> router02
+- <https://github.com/vuejs/vue-router/blob/dev/examples/route-matching/app.js> router03
+- <https://router.vuejs.org/en/essentials/nested-routes.html> router04
+
+
+
 
 Vue-resource assets loader example
 
@@ -44,6 +52,11 @@ Keep in mind that the tutorial is written in an older version of vue-router so i
 
 - [:page_facing_up: tutorial_router03](tutorial_router03) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router03/bin/index.html)
 <https://mattstauffer.co/blog/getting-started-using-vues-vue-router-for-single-page-apps>
+
+
+
+
+
 
 
 (**1**)

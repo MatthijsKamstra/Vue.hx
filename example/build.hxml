@@ -42,6 +42,42 @@
 -cmd cd ../tutorial09
 -cmd haxe build.hxml
 
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../tutorial_reddits
+-cmd haxe build.hxml
+
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../tutorial_loading
+-cmd haxe build.hxml
+
+
+
+
+
+
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../router01
+-cmd haxe build.hxml
+
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../router02
+-cmd haxe build.hxml
+
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../router03
+-cmd haxe build.hxml
+
+-cmd echo "done: ${PWD##*/}"
+
+-cmd cd ../router04
+-cmd haxe build.hxml
+
+
 
 
 
@@ -60,21 +96,6 @@
 -cmd cd ../tutorial_router03
 -cmd haxe build.hxml
 
-
-
-
--cmd echo "done: ${PWD##*/}"
-
-
--cmd cd ../tutorial_reddits
--cmd haxe build.hxml
-
-
--cmd echo "done: ${PWD##*/}"
-
-
--cmd cd ../tutorial_loading
--cmd haxe build.hxml
 
 
 -cmd echo "done: ${PWD##*/}"

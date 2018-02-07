@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"example.js",
+"sourceRoot":"file:///",
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/router01/src/Main.hx"],
+"names":[],
+"mappings":";;WASC,WACA;AAAA,CACC,YAAM;CAON,WAAW,aAAa;CACxB,WAAW,aAAa;CAOxB,aAAmC,CACjC,SAAS,oBAAkB,MAC3B,SAAS,oBAAkB;CAM7B,aAAa,cAAc,WAClB;CAOT,UAAU,QAAQ,WACP,aACJ;;YAOM,WACb;AAAA,YAAW;;;;;"
+}

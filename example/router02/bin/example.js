@@ -2,9 +2,8 @@
 (function () { "use strict";
 var Main = function() {
 	console.log("Haxe Vue.js example");
-	var demo = new Vue({ el : "#main", data : { active : "home"}, methods : { makeActive : function(item) {
-		this.active = item;
-	}}});
+	var _User = { template : "<div>User {{ $" + "route.params.id }}</div>"};
+	var router = new VueRouter({ routes : [{ path : "/user/:id", component : _User}]});
 };
 Main.main = function() {
 	var main = new Main();
