@@ -24,7 +24,7 @@ import vue.Vue;
 extern class VueRouter {
 	public function new (routeOptions:RouterOption);
 
-	// var app(default, never): Vue<Dynamic>;
+	var app(default, never): Vue;
 
     var mode(default, never): String;
 
