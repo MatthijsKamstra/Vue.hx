@@ -2,6 +2,7 @@ package vue;
 
 import haxe.io.Path;
 import haxe.extern.EitherType;
+import haxe.Constraints.Function;
 import haxe.extern.Rest;
 import js.html.HtmlElement;
 
@@ -17,8 +18,8 @@ import js.html.HtmlElement;
  * @author Matthijs Kamstra (https://github.com/MatthijsKamstra)
  */
 @:native("Vue")
-extern class Vue implements Dynamic
-{
+extern class Vue implements Dynamic {
+
 	public function new(options:VueOptions);
 
 	// Instance Properties (https://vuejs.org/v2/api/#Instance-Properties)
@@ -74,7 +75,7 @@ typedef VueConfig = {
 
 // Options / Data (https://vuejs.org/v2/api/#Options-Data)
 typedef VueComponentOptions = {
-	@:optional var data:Dynamic;
+	@:optional var data:EitherType<Dynamic,Function>; // Only accepts Function when used in a component definition.
 	@:optional var props:Array<String>;
 	@:optional var propsData:Dynamic;
 	@:optional var computed:Dynamic;

@@ -80,10 +80,9 @@ typedef RouteConfig = {
 	var path:String;
 	@:optional var component:EitherType<VueComponentOptions,String>;
 	@:optional var name:String;
-	// @:optional var params:Dynamic; // ???????
   	@:optional var components: Dynamic<EitherType<VueComponentOptions,String>>; // for named views
   	@:optional var redirect: EitherType<String, EitherType<Dynamic,Function>>;
-	@:optional var props: EitherType<Bool, EitherType<String, Function>>; // boolean | string | Function;
+	@:optional var props: EitherType<Bool, EitherType<String, Function>>;// might need a object/dynamic as well // boolean | string | Function;
 	@:optional var alias: EitherType<String, Array<String>>;
 	@:optional var children:Array<RouteConfig>; // for nested routes
   	// beforeEnter?: (to: Route, from: Route, next: Function) => void;
