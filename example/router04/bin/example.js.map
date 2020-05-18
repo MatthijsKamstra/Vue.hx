@@ -2,7 +2,7 @@
 "version":3,
 "file":"example.js",
 "sourceRoot":"file:///",
-"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/router04/src/Main.hx"],
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/example/router04/src/Main.hx"],
 "names":[],
-"mappings":";;WASC,WACA;AAAA,CACC,YAAM;CAEN,YAAY,aACA,0DAEG;CAMf,gBAAgB,aAAa;CAC7B,mBAAmB,aAAa;CAChC,iBAAiB,aAAa;CAE9B,aAAa,cAAc,WAClB,CACP,SAAS,yBAAuB,kBAAiB,CAGhD,SAAQ,gBAAe,WAIvB,SAAS,uBAAqB,cAI9B,SAAS,qBAAmB;CAM/B,WAAW,QAAQ,WAAS,gBAAkB;;YAIjC,WACb;AAAA,YAAW;;;;;"
+"mappings":";;WAOC,WAAe;AAAA,CACd,6BAAM;AADQ,CAGd,YAAY,aACA,0DAEG;AAND,CAYd,gBAAgB,aAAY;AAZd,CAad,mBAAmB,aAAY;AAbjB,CAcd,iBAAiB,aAAY;AAdf,CAgBd,aAAa,cAAc,WAClB,CACP,SACQ,yBACI,kBACD,CAGT,SAAO,gBAAe,WAItB,SAAQ,uBAAqB,cAI7B,SAAQ,qBAAmB;AAhCjB,CAsCd,WAAW,QAAQ,WAAS,gBAAiB;AAtC/B;YAyCf,WACC;AAAA,YAAW;AAAX;;;;"
 }

@@ -1,15 +1,10 @@
-package ;
+package;
 
 import vue.Vue;
-
 import js.Lib;
 
-
-class Main
-{
-
-	function new()
-	{
+class Main {
+	function new() {
 		trace("Haxe Vue.js example");
 
 		var app5 = new Vue({
@@ -18,7 +13,7 @@ class Main
 				message: 'Hello Vue.js!'
 			},
 			methods: {
-				reverseMessage: function () {
+				reverseMessage: function() {
 					// untyped this.message = this.message.split('').reverse().join('');
 					// untyped this.message = reverse(untyped this.message);
 					Lib.nativeThis.message = reverse(Lib.nativeThis.message);
@@ -32,20 +27,18 @@ class Main
 				message: 'Hello Vue!'
 			}
 		});
-
 	}
 
-	function reverse (str:String ) : String
-	{
+	function reverse(str:String):String {
 		var arr = str.split('');
 		var reversed = '';
-		for (i in 0 ... arr.length) {
-			reversed += arr[(arr.length-1)-i];
+		for (i in 0...arr.length) {
+			reversed += arr[(arr.length - 1) - i];
 		}
 		return reversed;
 	}
 
-	static public function main(){
+	static public function main() {
 		var main = new Main();
 	}
 }

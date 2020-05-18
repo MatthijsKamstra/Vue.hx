@@ -2,7 +2,7 @@
 "version":3,
 "file":"example.js",
 "sourceRoot":"file:///",
-"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/tutorial04/src/Main.hx"],
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/example/tutorial04/src/Main.hx"],
 "names":[],
-"mappings":";;WAOC,WACA;AAAA,CACC,YAAM;CAGN,cAAe,YAAY,UAInB,CAAE,oBACE;CAIZ,WAAW,QAAQ,OACb,iBACC,gBACQ,CACZ,SAAS,cACT,SAAS,UACT,SAAS;;YAQC,WACb;AAAA,YAAW;;;;;"
+"mappings":";;WAOC,WACA;AAAA,CACC,8BAAM;AADP,CAIC,cAAe,YAAY,UAInB,CAAE,oBACE;AATb,CAaC,WAAW,QAAQ,OACb,iBACC,gBACQ,CACZ,SAAS,cACT,SAAS,UACT,SAAS;AAnBb;YA2BA,WACC;AAAA,YAAW;AAAX;;;;"
 }

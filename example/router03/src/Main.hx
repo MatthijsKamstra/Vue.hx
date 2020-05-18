@@ -1,14 +1,11 @@
-package ;
+package;
 
 import vue.Vue;
 import vue.VueRouter;
-
 import js.Browser;
 
-class Main
-{
-	function new()
-	{
+class Main {
+	function new() {
 		trace("Haxe Vue.js example");
 
 		// The matching uses path-to-regexp, which is the matching engine used
@@ -18,23 +15,23 @@ class Main
 			// mode: 'history',
 			// base: Browser.window.location.pathname,
 			routes: [
-				{ path: '/' },
+				{path: '/'},
 				// params are denoted with a colon ":"
-				{ path: '/params/:foo/:bar' },
+				{path: '/params/:foo/:bar'},
 				// a param can be made optional by adding "?"
-				{ path: '/optional-params/:foo?' },
+				{path: '/optional-params/:foo?'},
 				// a param can be followed by a regex pattern in parens
 				// this route will only be matched if :id is all numbers
-				{ path: '/params-with-regex/:id(\\d+)' },
+				{path: '/params-with-regex/:id(\\d+)'},
 				// asterisk can match anything
-				{ path: '/asterisk/*' },
+				{path: '/asterisk/*'},
 				// make part of the path optional by wrapping with parens and add "?"
-				{ path: '/optional-group/(foo/)?bar' }
-		 	]
+				{path: '/optional-group/(foo/)?bar'}
+			]
 		});
 
 		new Vue({
-			router : router,
+			router: router,
 			template: '
 				<div id="app">
 					<h1>Route Matching</h1>
@@ -55,10 +52,9 @@ class Main
 				</div>
 			  '
 		}).$mount('#app');
-
 	}
 
-	static public function main(){
+	static public function main() {
 		var main = new Main();
 	}
 }

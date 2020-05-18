@@ -2,7 +2,7 @@
 "version":3,
 "file":"example.js",
 "sourceRoot":"file:///",
-"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/tutorial_router01/src/Main.hx"],
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/example/tutorial_router01/src/Main.hx"],
 "names":[],
-"mappings":";;WASC,WACA;AAAA,CACC,YAAM;CAIN,WAAW,aAAa;CACxB,UAAU,aAAa;CACvB,UAAU,aAAa;CAOvB,cAAmC,CAClC,SAAS,iBAAe,MACxB,SAAS,oBAAkB,KAC3B,SAAS,oBAAkB;CAM5B,aAAa,cAAc,WACnB;CAiBR,UAAU,QAAQ,WACV,gBACG;;YAME,WACb;AAAA,YAAW;;;;;"
+"mappings":";;WAMC,WAAe;AAAA,CACd,6BAAM;AADQ,CAKd,WAAW,aAAY;AALT,CAMd,UAAU,aAAY;AANR,CAOd,UAAU,aAAY;AAPR,CAcd,cAAiC,CAChC,SAAQ,iBAAe,MACvB,SAAQ,oBAAkB,KAC1B,SAAQ,oBAAkB;AAjBb,CAuBd,aAAa,cAAc,WAClB;AAxBK,CAsCd,UAAU,QAAQ,WACT,gBACE;AAxCG;YA6Cf,WACC;AAAA,YAAW;AAAX;;;;"
 }

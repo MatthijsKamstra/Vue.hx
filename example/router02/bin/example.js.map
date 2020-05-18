@@ -2,7 +2,7 @@
 "version":3,
 "file":"example.js",
 "sourceRoot":"file:///",
-"sources":["/Users/matthijs/Documents/GIT/Vue_mck.hx/example/router02/src/Main.hx"],
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/example/router02/src/Main.hx"],
 "names":[],
-"mappings":";;WASC,WACA;AAAA,CACC,YAAM;CAEN,YAAY,aACA,mBAAc;CAG1B,aAAa,cAAc,WAClB,CAEP,SAAS,yBAAuB;;YAMrB,WACb;AAAA,YAAW;;;;;"
+"mappings":";;WAOC,WAAe;AAAA,CACd,6BAAM;AADQ,CAGd,YAAY,aACA,mBAAc;AAJZ,CAOd,aAAa,cAAc,WAClB,CACP,SAAQ,yBAAuB;AATnB;YAaf,WACC;AAAA,YAAW;AAAX;;;;"
 }

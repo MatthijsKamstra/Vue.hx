@@ -1,16 +1,13 @@
-package ;
+package;
 
 import vue.Vue;
 
 @:expose
-class Main
-{
-
+class Main {
 	public static var app3:Vue;
 	public static var app4:Vue;
 
-	function new()
-	{
+	function new() {
 		trace("Haxe Vue.js example");
 
 		app3 = new Vue({
@@ -24,17 +21,15 @@ class Main
 			el: '#app-4',
 			data: {
 				todos: [
-					{ text: 'Learn JavaScript' },
-					{ text: 'Learn Vue' },
-					{ text: 'Build something awesome' }
+					{text: 'Learn JavaScript'},
+					{text: 'Learn Vue'},
+					{text: 'Build something awesome'}
 				]
 			}
 		});
-
 	}
 
-
-	static public function main(){
+	static public function main() {
 		var main = new Main();
 	}
 }

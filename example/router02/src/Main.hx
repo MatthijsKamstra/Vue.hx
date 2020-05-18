@@ -1,14 +1,11 @@
-package ;
+package;
 
 import vue.Vue;
 import vue.VueRouter;
-
 import js.Browser;
 
-class Main
-{
-	function new()
-	{
+class Main {
+	function new() {
 		trace("Haxe Vue.js example");
 
 		var _User = {
@@ -16,15 +13,12 @@ class Main
 		}
 
 		var router = new VueRouter({
-			routes: [
-				// dynamic segments start with a colon
-				{ path: '/user/:id', component: _User }
-			]
+			routes: [ // dynamic segments start with a colon
+				{path: '/user/:id', component: _User}]
 		});
-
 	}
 
-	static public function main(){
+	static public function main() {
 		var main = new Main();
 	}
 }

@@ -9,18 +9,17 @@ package vue;
  */
 @:native("Vue.http")
 extern class VueResource {
-	public static function get(url:String, ?options:RequestOptions):js.Promise<Dynamic>;
-	public static function head(url:String, ?options:RequestOptions):js.Promise<Dynamic>;
-	public static function delete(url:String, ?options:RequestOptions):js.Promise<Dynamic>;
-	public static function jsonp(url:String, ?options:RequestOptions):js.Promise<Dynamic>;
+	public static function get(url:String, ?options:RequestOptions):js.lib.Promise<Dynamic>;
+	public static function head(url:String, ?options:RequestOptions):js.lib.Promise<Dynamic>;
+	public static function delete(url:String, ?options:RequestOptions):js.lib.Promise<Dynamic>;
+	public static function jsonp(url:String, ?options:RequestOptions):js.lib.Promise<Dynamic>;
 
-	public static function post(url:String, ?body:Dynamic, ?options:RequestOptions):js.Promise<Dynamic>;
-	public static function put(url:String, ?body:Dynamic, ?options:RequestOptions):js.Promise<Dynamic>;
-	public static function patch(url:String, ?body:Dynamic, ?options:RequestOptions):js.Promise<Dynamic>;
+	public static function post(url:String, ?body:Dynamic, ?options:RequestOptions):js.lib.Promise<Dynamic>;
+	public static function put(url:String, ?body:Dynamic, ?options:RequestOptions):js.lib.Promise<Dynamic>;
+	public static function patch(url:String, ?body:Dynamic, ?options:RequestOptions):js.lib.Promise<Dynamic>;
 }
 
-typedef RequestOptions =
-{
+typedef RequestOptions = {
 	@:optional var url:String;
 	@:optional var body:Dynamic;
 	@:optional var headers:Dynamic;
@@ -34,15 +33,15 @@ typedef RequestOptions =
 	@:optional var emulateHTTP:Bool;
 	@:optional var emulateJSON:Bool;
 }
-typedef Response =
-{
+
+typedef Response = {
 	@:optional var url:String;
 	@:optional var body:Dynamic;
 	@:optional var headers:Dynamic;
 	@:optional var ok:Bool;
 	@:optional var status:Int;
 	@:optional var statusText:String;
-	@:optional var text:Void->js.Promise<Dynamic>;
-	@:optional var json:Void->js.Promise<Dynamic>;
-	@:optional var blob:Void->js.Promise<Dynamic>;
+	@:optional var text:Void->js.lib.Promise<Dynamic>;
+	@:optional var json:Void->js.lib.Promise<Dynamic>;
+	@:optional var blob:Void->js.lib.Promise<Dynamic>;
 }

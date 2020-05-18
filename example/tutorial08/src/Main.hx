@@ -1,15 +1,12 @@
-package ;
+package;
 
 import vue.Vue;
 import js.Lib;
 
 using StringTools;
 
-class Main
-{
-
-	function new()
-	{
+class Main {
+	function new() {
 		trace("Haxe Vue.js example");
 
 		var demo = new Vue({
@@ -55,15 +52,13 @@ class Main
 			},
 			computed: {
 				// A computed property that holds only those articles that match the searchString.
-				filteredArticles: function () {
-					var articles_array : Array<Dynamic> = Lib.nativeThis.articles;
+				filteredArticles: function() {
+					var articles_array:Array<Dynamic> = Lib.nativeThis.articles;
 					var searchString = Lib.nativeThis.searchString;
-
 
 					trace(articles_array.length);
 
-
-					if(searchString == ''){
+					if (searchString == '') {
 						return articles_array;
 					}
 
@@ -71,11 +66,10 @@ class Main
 
 					var item = articles_array[0];
 
-					var filteredArray =  [];
+					var filteredArray = [];
 
-					articles_array.filter(function(item){
-
-						if(item.title.toLowerCase().indexOf(searchString) != -1){
+					articles_array.filter(function(item) {
+						if (item.title.toLowerCase().indexOf(searchString) != -1) {
 							filteredArray.push(item);
 							return true;
 						} else {
@@ -88,11 +82,9 @@ class Main
 				}
 			}
 		});
-
 	}
 
-
-	static public function main(){
+	static public function main() {
 		var main = new Main();
 	}
 }
