@@ -37,7 +37,7 @@ don't forget to add it to your build file
 - Externs for the core Vue 2.0 API contained in the `Vue` class
 - Typedefs for `VueConfig` , `VueComponentOptions`, `VueOptions`, and `RenderFunction`
 - Externs for [`VueRouter`](src/vue/VueRouter.hx) and [`VueResource`](src/vue/VueResource.hx)
-- [Examples](example) to get you started
+- [Examples](docs) to get you started
 - An optional Component class (`VueComponent`) which, when extended, allows the use of an _@template_ metatag to add code for templates right in your haxe class.
 
 ```haxe
@@ -54,4 +54,4 @@ Other that that its Haxe/vue business as usual
 
 ## Examples
 
-Check out the [example](example) folder for more tips and tricks.
+Check out the [example](docs) folder for more tips and tricks.
