@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"example.js",
-"sourceRoot":"file:///",
-"sources":["/Users/matthijs/Documents/GIT/Vue_mck/example/tutorial05/src/Main.hx"],
-"names":[],
-"mappings":";;WAMC,WAAe;AAAA,CACd,6BAAM;AADQ,CAId,WAAW,QAAQ,OAEb,gBAIC,WACI,mBAID,eACI,eAEX;AAAA,gBAAwB;AAAxB;AAlBW;YAwBf,WACC;AAAA,YAAW;AAAX;;;;"
-}

@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"example.js",
+"sourceRoot":"file:///",
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/docs/tutorial_router01/src/Main.hx"],
+"names":[],
+"mappings":";;WAMC,WAAe;AAAA,CACd,6BAAM;AADQ,CAKd,WAAW,aAAY;AALT,CAMd,UAAU,aAAY;AANR,CAOd,UAAU,aAAY;AAPR,CAcd,cAAiC,CAChC,SAAQ,iBAAe,MACvB,SAAQ,oBAAkB,KAC1B,SAAQ,oBAAkB;AAjBb,CAuBd,aAAa,cAAc,WAClB;AAxBK,CAsCd,UAAU,QAAQ,WACT,gBACE;AAxCG;YA6Cf,WACC;AAAA,YAAW;AAAX;;;;"
+}

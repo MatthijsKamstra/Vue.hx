@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"example.js",
+"sourceRoot":"file:///",
+"sources":["/Users/matthijs/Documents/GIT/Vue_mck/docs/tutorial03/src/Main.hx"],
+"names":[],
+"mappings":";;WAMC,WAAe;AAAA,CAAf;AAAe,CACd,6BAAM;AADQ,CAGd,WAAW,QAAQ,OACb,iBACC,YACK,4BAEF,mBACQ,WAGf;AAAA,iBAAyB,eAAQ;AAAjC;AAZW,CAiBd,WAAW,QAAQ,OACb,iBACC,YACK;AApBE;YAkCf,WACC;AAAA,YAAW;AAAX;;UAVD,cAAoC;AAAA,EACnC,UAAU,UAAU;AADe,EAEnC,eAAe;AAFoB,EAGnC,SAAU;AAHyB,EAGnC,UAAc;AAHqB,EAGnC,WAAc,KAAd;AAAA;AAAA,GACC,YAAY,IAAI,AAAC,aAAa,IAAK;AADpC;AAHmC,EAMnC,OAAO;AAN4B;;;;;"
+}

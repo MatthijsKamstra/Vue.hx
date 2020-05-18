@@ -1,0 +1,4 @@
+-cmd cd docs
+-cmd haxe build.hxml
+
+-cmd echo "done: ${PWD##*/}"
