@@ -43,8 +43,7 @@ don't forget to add it to your build file
 ```haxe
     @template("<p>My Template</p>") //The component class will use the first @template for the template
     class MyComponent extends vue.VueComponent{
-        public function new()
-        {
+        public function new() {
             super('my-component', {});
         }
     }

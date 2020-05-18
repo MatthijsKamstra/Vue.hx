@@ -4,27 +4,27 @@ Follow these instructions from the original Vue.js website: <https://vuejs.org/v
 
 The walk you through the basics from Vue.js, that why there is no styling (focus on the code!).. :D
 
-- [:page_facing_up: tutorial01](tutorial01) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial01/bin/index.html) :link:<https://vuejs.org/v2/guide/#Declarative-Rendering> **1**
-- [:page_facing_up: tutorial02](tutorial02) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial02/bin/index.html) :link:<https://vuejs.org/v2/guide/#Conditionals-and-Loops> **1**
-- [:page_facing_up: tutorial03](tutorial03) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial03/bin/index.html) :link:<https://vuejs.org/v2/guide/#Handling-User-Input>
-- [:page_facing_up: tutorial04](tutorial04) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial04/bin/index.html) :link:<https://vuejs.org/v2/guide/#Composing-with-Components>
+- [:page_facing_up: tutorial01](tutorial01) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial01/bin/index.html) :link:<https://vuejs.org/v2/guide/#Declarative-Rendering> **1**
+- [:page_facing_up: tutorial02](tutorial02) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial02/bin/index.html) :link:<https://vuejs.org/v2/guide/#Conditionals-and-Loops> **1**
+- [:page_facing_up: tutorial03](tutorial03) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial03/bin/index.html) :link:<https://vuejs.org/v2/guide/#Handling-User-Input>
+- [:page_facing_up: tutorial04](tutorial04) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial04/bin/index.html) :link:<https://vuejs.org/v2/guide/#Composing-with-Components>
 
-- [:page_facing_up: tutorial04b](tutorial04b) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial04b/bin/index.html) the same as tutorial04 but with `VueComponent.hx`
+- [:page_facing_up: tutorial04b](tutorial04b) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial04b/bin/index.html) the same as tutorial04 but with `VueComponent.hx`
 
 Then some tutorials from: <http://tutorialzine.com/2016/03/5-practical-examples-for-learning-vue-js/>
 
 More complex example showing the power of Vue.js, and doing that with style :P
 
-- [:page_facing_up: tutorial05](tutorial05) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial05/bin/index.html) (NavigationBar)
-- [:page_facing_up: tutorial06](tutorial06) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial06/bin/index.html) (Inline Editor)
-- [:page_facing_up: tutorial07](tutorial07) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial07/bin/index.html) (Order Form)
-- [:page_facing_up: tutorial08](tutorial08) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial08/bin/index.html) (Instant Search)
-- [:page_facing_up: tutorial09](tutorial09) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial09/bin/index.html) (Switchable Grid)
+- [:page_facing_up: tutorial05](tutorial05) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial05/bin/index.html) (NavigationBar)
+- [:page_facing_up: tutorial06](tutorial06) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial06/bin/index.html) (Inline Editor)
+- [:page_facing_up: tutorial07](tutorial07) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial07/bin/index.html) (Order Form)
+- [:page_facing_up: tutorial08](tutorial08) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial08/bin/index.html) (Instant Search)
+- [:page_facing_up: tutorial09](tutorial09) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial09/bin/index.html) (Switchable Grid)
 
 The next examples show the vue-router:
 
-- [:page_facing_up: tutorial_router01](tutorial_router01) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router01/bin/index.html) :link:<https://router.vuejs.org/en/essentials/getting-started.html>
-- [:page_facing_up: tutorial_router02](tutorial_router02) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router02/bin/index.html) :link:<https://github.com/vuejs/vue-router/blob/dev/examples/named-routes/app.js>
+- [:page_facing_up: tutorial_router01](tutorial_router01) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial_router01/bin/index.html) :link:<https://router.vuejs.org/en/essentials/getting-started.html>
+- [:page_facing_up: tutorial_router02](tutorial_router02) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial_router02/bin/index.html) :link:<https://github.com/vuejs/vue-router/blob/dev/examples/named-routes/app.js>
 
 - <https://router.vuejs.org/en/essentials/getting-started.html> router01
 - <https://router.vuejs.org/en/essentials/dynamic-matching.html> router02
@@ -33,17 +33,17 @@ The next examples show the vue-router:
 
 Vue-resource assets loader example
 
-- [:page_facing_up: tutorial_loading](tutorial_loading) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_loading/bin/index.html)
+- [:page_facing_up: tutorial_loading](tutorial_loading) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial_loading/bin/index.html)
 
 More complex templating with vue-resource assets loader:
 
-- [:page_facing_up: tutorial_reddits](tutorial_reddits) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_reddits/bin/index.html) :link:<http://tutorialzine.com/2016/08/building-your-first-app-with-vue-js/>
+- [:page_facing_up: tutorial_reddits](tutorial_reddits) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial_reddits/bin/index.html) :link:<http://tutorialzine.com/2016/08/building-your-first-app-with-vue-js/>
 
 Another router example:
 
 Keep in mind that the tutorial is written in an older version of vue-router so it's a little rewritten (<https://vuejs.org/v2/guide/migration-vue-router.html>)
 
-- [:page_facing_up: tutorial_router03](tutorial_router03) [:tv: show](http://htmlpreview.github.io/?https://github.com/MatthijsKamstra/Vue.hx/blob/master/example/tutorial_router03/bin/index.html)
+- [:page_facing_up: tutorial_router03](tutorial_router03) [:tv: show](https://matthijskamstra.github.io/Vue.hx/tutorial_router03/bin/index.html)
   <https://mattstauffer.co/blog/getting-started-using-vues-vue-router-for-single-page-apps>
 
 (**1**)
